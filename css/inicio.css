@@ -1,0 +1,67 @@
+
+/* Infomações pessoais */
+.info-pessoal{
+    width: 100vw;
+    background-color: #f8f9fa;
+}
+
+.h3-infomacao::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 0.39285em 0 0.423em;
+    background: var(--bs-blue);
+}
+
+.info-pessoal-sobre{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding-left: calc((100% - 940px)/2);
+    padding-right: calc((100% - 940px)/2);
+    padding-bottom: 1rem;
+}
+
+.info-pessoal-sobre-list{
+    border: 1px solid #DEDEDE;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px 2px #00000010;
+}
+
+.info-pessoal-sobre-img{
+    width: 25rem;
+} 
+
+.info-pessoal-sobre-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Formação acadêmica */
+
+.formacao-academica{
+    width: 100vw;
+}
+
+.h3-formacao::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 0.39285em 0 0.423em;
+    background: var(--bs-indigo);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .info-pessoal-sobre{
+        flex-direction: column;
+    }
+
+    .info-pessoal-sobre-img{
+        padding-bottom: 1rem;
+    }
+}
