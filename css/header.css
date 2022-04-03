@@ -1,3 +1,12 @@
+#link-inicio::after{
+    content: '';
+    display: block;
+    border-radius: 2px;
+    width: 40px;
+    height: 2px;
+    background: #f8f9fa;
+}
+
 .header-nav{
     background-image: url("../img/529313.jpeg");
     background-size: cover;
