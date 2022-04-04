@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo - Murilo Ribeiro</title>
+
+    <!-- Flaticon -->
+    <link
+      rel="shortcut icon"
+      href="/img/letra-m (1).png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+
+    <!-- Font-Awesome -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/font-awesome/css/font-awesome.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/inicio.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="header-nav">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              id="navbar__img"
+              class="navbar__img"
+              src="img/letra-m (1).png"
+              alt="Imagem da letra M"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  id="link-inicio"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Cursos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Pretenções</a>
+              </li>
+            </ul>
+            <div class="d-flex">
+              <a
+                href="#"
+                data-bs-toggle="tooltip"
+                data-bs-placement="left"
+                title="Essa é a página principal, role a tela para conhecer melhor o site!"
+              >
+                <img
+                  src="img/circle-info-solid.svg"
+                  alt="botão de ajuda"
+                  width="20px"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="section-titulo">
+        <div class="text-center">
+          <h2>Bem Vindo!</h2>
+          <p>Este é o site do Murilo Ribeiro dos Santos.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Infomações pessoais -->
+      <section>
+        <div class="info-pessoal">
+          <div class="info-pessoal-titulo p-3">
+            <h3 class="h3-infomacao">- Infomações pessoais</h3>
+          </div>
+          <div class="info-pessoal-sobre">
+            <div class="info-pessoal-sobre-img">
+              <img
+                src="img/foto-perfil.png"
+                class="img-thumbnail"
+                alt="foto de perfil"
+              />
+            </div>
+            <div class="info-pessoal-sobre-info">
+              <div class="info-pessoal-sobre-list">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <span class="fw-bold">Nome completo</span>: Murilo Ribeiro
+                    dos Santos
+                  </li>
+                  <li id="list-nascimento" class="list-group-item"></li>
+                  <li id="list-idade" class="list-group-item"></li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Endereço</span>: Jardim América -
+                    Cariacica - Espirito Santo - Brasil
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Telefone</span>: +55 (027) 996594740
+                  </li>
+                  <li class="list-group-item">
+                    <span class="fw-bold">Estado civil</span>: Solteiro
+                  </li>
+                </ul>
+              </div>
+              <div class="info-pessoal-sobre-icons m-3">
+                <a
+                  href="https://www.instagram.com/murilo.ribjj/"
+                  data-bs-toggle="tooltip"
+                  title="Click para acessar o meu Instagram"
+                >
+                  <img
+                    src="img/instagram.svg"
+                    alt="Icon do instagram."
+                    width="30px"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/murilo-ribeiro-465981219/"
+                  data-bs-toggle="tooltip"
+                  title="Click para acessar o meu Linkedin"
+                >
+                  <img
+                    src="img/linkedin.svg"
+                    alt="Icon do Linkedin"
+                    width="30px"
+                  />
+                </a>
+                <a
+                  href="https://github.com/MuriloRibg"
+                  data-bs-toggle="tooltip"
+                  title="Click para acessar o meu GitHub"
+                >
+                  <img
+                    src="img/github.svg"
+                    alt="Icon do GitHub"
+                    width="30px"
+                  />
+                </a>
+                <a
+                  href="mailto:murilos.ribeiro21@gmail.com"
+                  data-bs-toggle="tooltip"
+                  title="Click para enviar um email"
+                >
+                  <img
+                    src="img/envelope.svg"
+                    alt="Icon do email"
+                    width="30px"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Formação acadêmica -->
+      <section>
+        <div class="formacao-academica">
+          <div class="formacao-academica-titulo p-3">
+            <h3 class="h3-formacao">- Formação acadêmica</h3>
+          </div>
+          <div class="formacao-uvv">
+            <div class="card-formacao card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/logo-uvv.png"
+                    class="img-fluid rounded-start"
+                    alt="Foto da logo da UVV"
+                    width="100%"
+                  />
+                </div>
+                <div class="div-info-formacao col-md-8">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Universidade Vila Velha - UVV</h5>
+                    <p class="card-text">
+                      Bacharelado, Tecnologia da Informação/Sistemas de
+                      Informação.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Julho 2021 - Julho 2025</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-formacao card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/logo-UP.webp"
+                    class="img-fluid rounded-start"
+                    alt="Foto da logo da UVV"
+                    width="100%"
+                  />
+                </div>
+                <div class="div-info-formacao col-md-8">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">
+                      Centro Educacional UP - Jardim da Penha
+                    </h5>
+                    <p class="card-text">Ensino médio completo.</p>
+                    <p class="card-text">
+                      <small class="text-muted"> Dezembro 2018</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experiência -->
+      <section>
+        <div class="formacao-academica">
+          <div class="formacao-academica-titulo p-3">
+            <h3 class="h3-formacao">- Experiência</h3>
+          </div>
+          <div class="formacao-uvv">
+            <div class="card-formacao card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/logo-uvv.png"
+                    class="img-fluid rounded-start"
+                    alt="Foto da logo da UVV"
+                    width="100%"
+                  />
+                </div>
+                <div class="div-info-formacao col-md-8">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Universidade Vila Velha - UVV</h5>
+                    <p class="card-text">
+                      Bacharelado, Tecnologia da Informação/Sistemas de
+                      Informação.
+                    </p>
+                    <p class="card-text">
+                      <small class="text-muted">Julho 2021 - Julho 2025</small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stacks de Desenvolvimento -->
+      <section>
+        <div class="stacks-desenvolvimento">
+          <div class="formacao-academica-titulo p-3">
+            <h3 class="h3-stacks">- Stacks de Desenvolvimento</h3>
+          </div>
+        </div>
+        <div class="card-desenvolvimento row row-cols-1 row-cols-md-3 g-4">
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/Angular_full_color_logo.svg.png"
+                class="card-img-top"
+                alt="Foto do logo Angular"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Angular</h5>
+                <p class="card-text">
+                  Angular é uma plataforma de aplicações web de código-fonte
+                  aberto e front-end baseado em TypeScript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/bootstrap-logo-vector.svg"
+                class="card-img-top"
+                alt="Foto do logo do Bootstrap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">
+                  É um framework com código-fonte aberto para desenvolvimento de
+                  componentes front-end para sites e aplicações web usando HTML,
+                  CSS e JavaScript.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/logo-Typescript.png"
+                class="card-img-top"
+                alt="Foto do logo do TypeScript"
+              />
+              <div class="card-body">
+                <h5 class="card-title">TypeScript</h5>
+                <p class="card-text">
+                  É um superconjunto sintático estrito de JavaScript e adiciona
+                  tipagem estática opcional à linguagem..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/node.png"
+                class="card-img-top"
+                alt="Foto do logo do Node.js"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Node.js</h5>
+                <p class="card-text">
+                  Software que permite a execução de códigos JavaScript fora de
+                  um navegador web..
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/Git-Icon-1788C.png"
+                class="card-img-top"
+                alt="Foto do logo do Git"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Git</h5>
+                <p class="card-text">
+                  O git é um sistema de controle de versões.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="img/log-cSharp.webp"
+                class="card-img-top"
+                alt="Foto do logo do CSharp"
+              />
+              <div class="card-body">
+                <h5 class="card-title">C#</h5>
+                <p class="card-text">
+                  Linguagem de programação multiparadigma, de tipagem forte,
+                  desenvolvida pela Microsoft como parte da plataforma .NET.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-stack col">
+            <div class="card">
+              <img
+                src="../img/logo..net.png"
+                class="card-img-top"
+                alt="Foto do logo do .Net Core"
+              />
+              <div class="card-body">
+                <h5 class="card-title">.Net Core</h5>
+                <p class="card-text">
+                  O .Net Core é um framework livre e de código aberto para os
+                  sistemas operacionais Windows, Linux e macOS.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Bootstrap -->
+    <script
+      type="module"
+      src="./node_modules/bootstrap/dist/js/bootstrap.js"
+    ></script>
+
+    <!-- JavaScript -->
+    <script src="./js/pag-inicio.js"></script>
+  </body>
+</html>

@@ -59,11 +59,12 @@
     max-width: 60%;
 }
 
-.formacao-uvv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.div-info-formacao {
+    margin: auto;
+}
+
+.formacao-uvv {
+    margin: 15px;
 }
 
 /* Stacks-desenvolvimento */
@@ -76,15 +77,30 @@
     background: var(--bs-yellow);
 }
 
+.card-desenvolvimento {
+    margin: auto;
+    justify-content: space-between;
+}
+
+.card-stack {
+    width: 30%;
+}
+
 @media screen and (max-width: 768px) {
     .formacao-uvv {
+        display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
         align-items: flex-start;
     }
+
     .card-formacao{    
         max-width: 40%;
+    }
+
+    .card-stack {
+        width: 8    0%;
     }
 }
 
@@ -101,5 +117,9 @@
 
     .info-pessoal-sobre-info{
         margin: 10px;
+    }
+
+    .card-stack {
+        width: 50%;
     }
 }
