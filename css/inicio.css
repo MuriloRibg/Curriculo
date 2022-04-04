@@ -31,7 +31,7 @@
 }
 
 .info-pessoal-sobre-img{
-    width: 25rem;
+    width: 20rem;
 } 
 
 .info-pessoal-sobre-icons{
@@ -56,7 +56,8 @@
 }
 
 .card-formacao{
-    max-width: 60%;
+    margin: 10px;
+    max-width: 40%;
 }
 
 .div-info-formacao {
@@ -64,7 +65,28 @@
 }
 
 .formacao-uvv {
+    display: flex;
+    flex-direction: row;
     margin: 15px;
+}
+
+/* Experiência */
+.h3-experiencia::after{
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    margin: 0.39285em 0 0.423em;
+    background: var(--bs-orange);
+}
+
+.experiencia-cards {    
+    margin: 15px;
+}
+
+.card-experiencia {
+    margin: 10px;
+    max-width: 40%;
 }
 
 /* Stacks-desenvolvimento */
