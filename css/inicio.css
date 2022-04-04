@@ -125,7 +125,12 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .card-info {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    
     .formacao-uvv {
         display: flex;
         flex-direction: column;
