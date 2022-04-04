@@ -65,7 +65,7 @@
 }
 
 .formacao-uvv {
-    display: flex;
+    display: flex;  
     flex-direction: row;
     margin: 15px;
 }
@@ -111,18 +111,19 @@
 @media screen and (max-width: 768px) {
     .formacao-uvv {
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: flex-start;
+        flex-direction: column;
     }
 
     .card-formacao{    
-        max-width: 40%;
+        max-width: 100%;
     }
 
     .card-stack {
-        width: 8    0%;
+        width: 80%;
+    }
+
+    .card-experiencia {
+        max-width: 100%;
     }
 }
 
