@@ -17,14 +17,23 @@
       crossorigin="anonymous"
     />
 
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/header.css" />
     <link rel="stylesheet" href="css/inicio.css" />
   </head>
   <body>
     <!-- Navbar -->
+
     <header class="header-nav">
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg navbar-light px-3">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
@@ -46,51 +55,50 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="nav nav-pills navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  id="link-inicio"
-                  class="nav-link"
                   aria-current="page"
-                  href="#"
-                  >Inicio</a
+                  class="nav-link"
+                  href="#scrollspyHeading1"
+                  >Infomações Pessoais</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Cursos</a>
+                <a
+                  aria-current="page"
+                  class="nav-link"
+                  href="#scrollspyHeading2"
+                  >Formação Acadêmica</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Pretenções</a>
+                <a aria-current="page" class="nav-link" href="#scrollspyHeadin3"
+                  >Experiência</a
+                >
+              </li>
+              <li class="nav-item">
+                <a aria-current="page" class="nav-link" href="#scrollspyHeadin4"
+                  >Stacks de Desenvolvimento</a
+                >
               </li>
             </ul>
-            <div class="d-flex">
-              <a
-                href="#"
-                data-bs-toggle="tooltip"
-                data-bs-placement="left"
-                title="Essa é a página principal, role a tela para conhecer melhor o site!"
-              >
-                <img
-                  src="img/circle-info-solid.svg"
-                  alt="botão de ajuda"
-                  width="20px"
-                />
-              </a>
-            </div>
           </div>
         </div>
       </nav>
       <div class="section-titulo">
         <div class="text-center">
-          <h2>Bem Vindo!</h2>
-          <p>Este é o site do Murilo Ribeiro dos Santos.</p>
+          <h1 class="titulo-principal">Bem Vindo!</h1>
+          <p class="subTitulo-principal">
+            Este é o site do Murilo Ribeiro dos Santos.
+          </p>
         </div>
       </div>
     </header>
 
     <main>
       <!-- Infomações pessoais -->
-      <section>
+      <section id="scrollspyHeading1">
         <div class="info-pessoal">
           <div class="info-pessoal-titulo p-3">
             <h3 class="h3-infomacao">- Infomações pessoais</h3>
@@ -113,8 +121,8 @@
                   <li id="list-nascimento" class="list-group-item"></li>
                   <li id="list-idade" class="list-group-item"></li>
                   <li class="list-group-item">
-                    <span class="fw-bold">Endereço</span>: Jardim América -
-                    Cariacica - Espirito Santo - Brasil
+                    <span class="fw-bold">Endereço</span>: Espirito Santo -
+                    Brasil
                   </li>
                   <li class="list-group-item">
                     <span class="fw-bold">Telefone</span>: +55 (027) 996594740
@@ -172,12 +180,12 @@
       </section>
 
       <!-- Formação acadêmica -->
-      <section>
+      <section id="scrollspyHeading2">
         <div class="formacao-academica">
           <div class="formacao-academica-titulo p-3">
             <h3 class="h3-formacao">- Formação acadêmica</h3>
           </div>
-          <div class="formacao-uvv">
+          <div class="formacoes">
             <div class="card-formacao card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -231,12 +239,12 @@
       </section>
 
       <!-- Experiência -->
-      <section>
+      <section id="scrollspyHeadin3">
         <div class="experiencia">
           <div class="experiencia-titulo p-3">
             <h3 class="h3-experiencia">- Experiência</h3>
           </div>
-          <div class="experiencia-cards">
+          <div class="experiencia-cards p-3">
             <div class="card-experiencia card mb-3">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -267,7 +275,7 @@
       </section>
 
       <!-- Stacks de Desenvolvimento -->
-      <section>
+      <section id="scrollspyHeadin4">
         <div class="stacks-desenvolvimento">
           <div class="formacao-academica-titulo p-3">
             <h3 class="h3-stacks">- Stacks de Desenvolvimento</h3>
@@ -333,8 +341,8 @@
                 <div class="card-body">
                   <h5 class="card-title">Node.js</h5>
                   <p class="card-text">
-                    Software que permite a execução de códigos JavaScript fora de
-                    um navegador web.
+                    Software que permite a execução de códigos JavaScript fora
+                    de um navegador web.
                   </p>
                 </div>
               </div>
@@ -364,8 +372,8 @@
                 <div class="card-body">
                   <h5 class="card-title">C#</h5>
                   <p class="card-text">
-                    Linguagem de programação, de tipagem forte,
-                    desenvolvida pela Microsoft.
+                    Linguagem de programação, de tipagem forte, desenvolvida
+                    pela Microsoft.
                   </p>
                 </div>
               </div>
@@ -385,7 +393,7 @@
                   </p>
                 </div>
               </div>
-            </div>            
+            </div>
           </div>
         </div>
       </section>
