@@ -1,0 +1,20 @@
+<nav>
+  <div class="navbar">
+    <a [routerLink]="['']" >
+      <img src="assets/img/murilo.png" alt="Logo do Murilo" width="120px" />
+    </a>
+    <div class="navbar__list">
+      <ul>
+        <li>
+          <a [routerLink]="['home']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Inicio</a>
+        </li>
+        <li>
+          <a [routerLink]="['experiencia']" routerLinkActive="active">Experiência</a>
+        </li>
+        <li>
+          <a [routerLink]="['cursos']" routerLinkActive="active">Cursos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
