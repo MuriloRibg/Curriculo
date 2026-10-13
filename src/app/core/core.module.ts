@@ -4,7 +4,7 @@ import { CoreRoutingModule } from './core-routing.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { NgxSpinnerModule } from 'ngx-spinner';
+// import { NgxSpinnerModule } from 'ngx-spinner';
 
 
 
@@ -15,7 +15,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     CoreRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxSpinnerModule,
+    // NgxSpinnerModule,
     HeaderModule,
     RouterModule
   ],

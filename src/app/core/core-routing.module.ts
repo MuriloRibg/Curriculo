@@ -10,19 +10,19 @@ const rotas: Routes = [
   {
     path: 'home',
     loadChildren: () =>
-      import('src/app/inicio/inicio.module').then((x) => x.InicioModule),
+      import('../inicio/inicio.module').then((x) => x.InicioModule),
   },
   {
     path: 'experiencia',
     loadChildren: () =>
-      import('src/app/experiencias/experiencias.module').then(
+      import('../experiencias/experiencias.module').then(
         (x) => x.ExperienciasModule
       ),
   },
   {
     path: 'cursos',
     loadChildren: () =>
-      import('src/app/cursos/cursos.module').then((x) => x.CursosModule),
+      import('../cursos/cursos.module').then((x) => x.CursosModule),
   },
 ];
 

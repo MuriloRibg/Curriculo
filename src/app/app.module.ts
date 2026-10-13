@@ -1,24 +1,21 @@
 import { RouterModule } from '@angular/router';
-import { NgxSpinnerModule } from 'ngx-spinner';
-import { CoreModule } from './core/core.module';
+// import { NgxSpinnerModule } from 'ngx-spinner';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderModule } from './core/components/header/header.module';
+import { AppComponent } from './app.component';
+import { CoreModule } from './core/core.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     CoreModule,
-    NgxSpinnerModule,
+    // NgxSpinnerModule,
     RouterModule,
     BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
