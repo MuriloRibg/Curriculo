@@ -1,15 +1,30 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent {
 
-  constructor() { }
-
-  ngOnInit(): void {
+  onHomeClick(): void {
+    const homeLink = document.getElementById('link-home');
+    if (homeLink) {
+      homeLink.click();
+    }
   }
 
+  onExperienciaClick(): void {
+    const experienciaLink = document.getElementById('link-experiencia');
+    if (experienciaLink) {
+      experienciaLink.click();
+    }
+  }
+
+  onCursosClick(): void {
+    const cursosLink = document.getElementById('link-cursos');
+    if (cursosLink) {
+      cursosLink.click();
+    }
+  }
 }
