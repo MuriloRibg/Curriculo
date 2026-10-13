@@ -3,11 +3,12 @@ import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Rout
 // import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
-  selector: 'app-root',
-  template: `
+    selector: 'app-root',
+    template: `
     <app-header></app-header>
     <router-outlet></router-outlet>`,
-  styles: []
+    styles: [],
+    standalone: false
 })
 export class AppComponent implements OnInit{
   private readonly router: Router = inject(Router);
