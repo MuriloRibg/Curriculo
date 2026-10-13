@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, ChangeDetectionStrategy } from '@angular/core';
 import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Router } from '@angular/router';
 // import { NgxSpinnerService } from 'ngx-spinner';
 
@@ -8,6 +8,7 @@ import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Rout
     <app-header></app-header>
     <router-outlet></router-outlet>`,
     styles: [],
+    changeDetection: ChangeDetectionStrategy.Eager,
     standalone: false
 })
 export class AppComponent implements OnInit{
